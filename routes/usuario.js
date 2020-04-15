@@ -1,6 +1,6 @@
 var express = require('express');
 var bcrypt = require('bcryptjs');
-var mdAutenticacion = require('../middelwares/autenticacion');
+var mdAutenticacion = require('../middlewares/autenticacion');
 
 
 var app = express();
